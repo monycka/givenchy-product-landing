@@ -24,6 +24,8 @@ body {
 #main-title{
   font-size: 3em;
   color: #9e0059;
+  margin: 10px;
+  padding: 10px;
 }
 
 li {
@@ -31,7 +33,7 @@ li {
 }
 
 a {
-  color: #457b9d;
+  color: #00296b;
   text-decoration: none;
 }
 a:hover {
@@ -67,6 +69,7 @@ a:hover {
   text-align: center;
   background-color: #9e0059;
   border-radius: 4px;
+  margin: 20px;
 }
 
 header {
@@ -153,8 +156,8 @@ nav > ul {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 600px;
-  margin-top: 50px;
+  height: 500px;
+  margin-top: 70px;
 }
 
 #hero #image {
@@ -227,6 +230,7 @@ nav > ul {
   color: #1d3557;
   font-weight: 500;
   text-align: center;
+  font-size: 1.5em;
 }
 
 .fragance #popular {
