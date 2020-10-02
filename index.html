@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/style.css" />
     <title>Givenchy Fragance</title>
   </head>
   <body>
@@ -19,7 +19,7 @@
 
         <nav id="nav-bar">
           <ul>
-            <li><a class="nav-link" href="#fragance">Fragance</a></li>
+            <li><a class="nav-link" href="#fragance">Fragances</a></li>
             <li><a class="nav-link" href="#fashion">Fashion Show</a></li>
             <li><a class="nav-link" href="#pricing">Pricing</a></li>
           </ul>
@@ -56,8 +56,8 @@
 
       <div class="container" id="tribute-info">
         <section class="fragance">
-          <div>
-            <h2 class="section-title" id="fragance">POPULAR GIVENCHY FRAGANCES</h2>
+          <div id="fragance">
+            <h2 class="section-title">POPULAR GIVENCHY FRAGANCES</h2>
           </div>
           <div class="grid">
             <div class="desc">
@@ -132,19 +132,26 @@
         </section>
       </div>
 
-        <section id="fashion">
-          <h2 class="section-title">Givenchy Fall Winter 2020 Fashion Show</h2>
+      <div class="container">
+        <section class="fashion">
+          <div id="fashion">
+            <h2 class="section-title">
+              GIVENCHY FALL WINTER 2020 FASHION SHOW
+            </h2>
+          </div>
+          <span id="fashion-show">
+            <iframe
+              id="video"
+              height="315"
+              src="https://www.youtube-nocookie.com/embed/jrbMu2BY8H4?rel=0&amp;controls=0&amp;showinfo=0"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </span>
         </section>
-        
-        <section id="fashion-show">
-             <iframe
-            id="video"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/jrbMu2BY8H4?rel=0&amp;controls=0&amp;showinfo=0"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
-        </section>
+      </div>
+
+      <div class="container">
         <section id="pricing">
           <div class="product" id="medium">
             <div class="level">1 oz</div>
@@ -162,24 +169,30 @@
             <button class="btn">Select</button>
           </div>
         </section>
-        <div id="more-info">
-          To learn more about
-          <a
-            href="https://www.givenchybeauty.com/us"
-            target="_blank"
-            id="tribute-link"
-            >Givenchy Beauty
-          </a>
-          please visit our main page.
-        </div>
-        <footer>
-          <ul>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-          <span>Copyright 2020, Monica Colorado</span>
-        </footer>
       </div>
+
+      <div class="container">
+        <section class="footer">
+          <div id="more-info">
+            To learn more about
+            <a
+              href="https://www.givenchybeauty.com/us"
+              target="_blank"
+              id="tribute-link"
+              >Givenchy Beauty
+            </a>
+            please visit our main page.
+          </div>
+          <footer>
+            <ul>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <span>Copyright 2020, Monica Colorado</span>
+          </footer>
+        </section>
+      </div>
+    </div>
   </body>
 </html>
