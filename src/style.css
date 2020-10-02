@@ -13,8 +13,17 @@ body {
   font-family: 'Maven Pro', sans-serif;
 }
 
+#img-caption {
+  color: #9e0059;
+}
+
 #main{
   position: relative;
+}
+
+#main-title{
+  font-size: 3em;
+  color: #9e0059;
 }
 
 li {
@@ -26,11 +35,10 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #e63946;
+  color: #9e0059;
   text-decoration: underline;
 }
 
-/** global classes styling **/
 
 .container {
   max-width: 1000px;
@@ -54,10 +62,11 @@ a:hover {
   display: flex;
 }
 
-
 .section-title {
-  color: #9e0059;
+  color: #fff;
   text-align: center;
+  background-color: #9e0059;
+  border-radius: 4px;
 }
 
 header {
@@ -67,6 +76,8 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: fixed;
+  background-color: #dfe9f3;
 }
 
 @media (max-width: 600px) {
@@ -142,7 +153,7 @@ nav > ul {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 500px;
+  height: 600px;
   margin-top: 50px;
 }
 
@@ -250,7 +261,7 @@ nav > ul {
   width: 100%;
 }
 
-#pricing {
+.pricing {
   margin-top: 60px;
   display: flex;
   flex-direction: row;
@@ -295,7 +306,7 @@ nav > ul {
 }
 
 @media (max-width: 800px) {
-  #pricing {
+  .pricing {
     flex-direction: column;
   }
   .product {
