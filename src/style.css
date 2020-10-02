@@ -57,6 +57,8 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: fixed;
+  background-color: #edf6f9;
 }
 
 @media (max-width: 600px) {
@@ -193,6 +195,12 @@ nav > ul {
   }
 }
 
+#fragance {
+  color: #1d3557;
+  margin: 10px;
+  text-align: center;
+}
+
 #fragance .desc {
   display: flex;
   flex-direction: column;
@@ -208,8 +216,8 @@ nav > ul {
   text-align: center;
 }
 
-#fragance #popular {
-  color: #1d3557;
+.section-title {
+  color: #5f0f40;
   margin: 10px;
   text-align: center;
 }

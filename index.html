@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css">
     <title>Givenchy Fragance</title>
   </head>
   <body>
@@ -19,41 +20,166 @@
         <nav id="nav-bar">
           <ul>
             <li><a class="nav-link" href="#fragance">Fragance</a></li>
-            <li><a class="nav-link" href="#fashion-show">Fashion Show</a></li>
+            <li><a class="nav-link" href="#fashion">Fashion Show</a></li>
             <li><a class="nav-link" href="#pricing">Pricing</a></li>
           </ul>
         </nav>
       </header>
-    </div>
 
-    <div class="container"></div>
+      <div class="container"></div>
 
-    <section id="hero">
-      <h1 id="title">Givenchy Fragances</h1>
-      <h2 id="slogan">
-        Discover iconic perfumes for women and men that are irresistibly
-        classic, and so very Givenchy.
-      </h2>
-      <div id="img-div">
-        <img
-          src="https://fraguru.com/mdimg/perfume/375x500.60891.jpg"
-          alt="Givenchy irresistible perfume"
-          id="image"
-        />
-        <figcaption id="img-caption">
-          The new fragance by Givenchy, Irresistible
-        </figcaption>
+      <section id="hero">
+        <h1 id="title">Givenchy Fragances</h1>
+        <h2 id="slogan">
+          Discover iconic perfumes for women and men that are irresistibly
+          classic, and so very Givenchy.
+        </h2>
+        <div id="img-div">
+          <img
+            src="https://fraguru.com/mdimg/perfume/375x500.60891.jpg"
+            alt="Givenchy irresistible perfume"
+            id="image"
+          />
+          <figcaption id="img-caption">
+            The new fragance by Givenchy, Irresistible
+          </figcaption>
+        </div>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <input id="submit" type="submit" value="Get Started" class="btn" />
+        </form>
+      </section>
+
+      <div class="container" id="tribute-info">
+        <section id="fragance">
+          <h1 class="section-title">Popular Givenchy Fragances</h1>
+          <div class="grid">
+            <div class="desc">
+              <h2 id="name">AMARIGE</h2>
+              <p>
+                Feminine, soft, sublime: Amarige is the symbol of femininity,
+                radiant and bursting with happiness. This Eau de Toilette
+                reveals the pleasures of life and the simplicity of joyful
+                moments with its sweet notes evocating the shores of the
+                Mediterranean.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="desc">
+              <h2 id="name">ANGE OU DÉMON</h2>
+              <p>
+                A woman with a mystery whose aura intoxicates you. Enigmatic,
+                fascinating, charming, elusive. An angel - or not at all? Only
+                she truly knows. Optional Seduction is always a mystery. We make
+                sure you recieve your trombone as soon as we have finished
+                making it. We also provide free returns if you are not
+                satisfied.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="desc">
+              <h2 id="name">ANGE OU DÉMON: LE SECRET</h2>
+              <p>
+                A provocative enigma that lies between shadow and light, where
+                the captivating duality of seduction plays out. Now the mystery
+                is enlightened, the luminous side of seduction is revealed in a
+                fragrance as delicate as dawn. Dazzling.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="desc">
+              <h2 id="name">DAHLIA DIVIN</h2>
+              <p>
+                A fragrance that captures the divine-like power of a modern day
+                goddess as she sparkles in crystalline, radiant gold. Venus
+                bathed in sunlight.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="desc">
+              <h2 id="name">IRRESISTIBLE</h2>
+              <p>
+                Irresistible Givenchy, a fragrance that definitely invites you
+                to let go. The fragrance of a naturally irresistible woman with
+                a strong magnetic charm who draws you into a release dance with
+                liberating vibes. An invitation to let go and reveal who you
+                are.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="desc">
+              <h2 id="name">L'INTERDIT</h2>
+              <p>
+                Givenchy takes you deeper into the forbidden with L'Interdit Eau
+                de Parfum Intense. A surrender to cravings obscured. Channel
+                your inner thrill and fuel your deepest impulses. The
+                Underground Flower fades to black. An overdose of Tuberose
+                clashes with the most voluptuous leathered-Vanilla.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="fashion">
+          <h1 class="section-title">Givenchy Fall Winter 2020 Fashion Show</h1>
+        </section>
+        
+        <section id="fashion-show">
+             <iframe
+            id="video"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/jrbMu2BY8H4?rel=0&amp;controls=0&amp;showinfo=0"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section id="pricing">
+          <div class="product" id="medium">
+            <div class="level">1 oz</div>
+            <h2>$78</h2>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="large">
+            <div class="level">1.7 oz</div>
+            <h2>$98</h2>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="set">
+            <div class="level">Set</div>
+            <h2>$150</h2>
+            <button class="btn">Select</button>
+          </div>
+        </section>
+        <div>
+          To learn more about
+          <a
+            href="https://www.givenchybeauty.com/us"
+            target="_blank"
+            id="tribute-link"
+            >Givenchy Beauty
+          </a>
+          please visit our main page.
+        </div>
+        <footer>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <span>Copyright 2020, Monica Colorado</span>
+        </footer>
       </div>
-      <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <input
-          name="email"
-          id="email"
-          type="email"
-          placeholder="Enter your email address"
-          required
-        />
-        <input id="submit" type="submit" value="Get Started" class="btn" />
-      </form>
-    </section>
+    </div>
   </body>
 </html>
