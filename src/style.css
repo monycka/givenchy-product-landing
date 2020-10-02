@@ -1,0 +1,30 @@
+@import "https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  font-family: 'Maven Pro', sans-serif;
+}
+
+#main{
+  position: relative;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #457b9d;
+  text-decoration: none;
+}
+a:hover {
+  color: #e63946;
+  text-decoration: underline;
+}
+
